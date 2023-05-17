@@ -18,6 +18,8 @@ public class UtilisationDuree {
      */
     public static void main(String[] args) {
          testChaine();
+         testOrdre();
+         testDifferente();
     }
     
     /** 
@@ -29,12 +31,12 @@ public class UtilisationDuree {
         int[] d2; // deuxième durée
         int[] d3; // troisième
 
-        d1 = DureeHMS.saisirDuree("Saisie de la première durée : ");
-        d2 = DureeHMS.saisirDuree("Saisie de la deuxième durée : ");
-        d3 = DureeHMS.saisirDuree("Saisie de la troisième durée : ");
+        d1 = DureeHMS.saisirDuree("Saisie de la première duree : ");
+        d2 = DureeHMS.saisirDuree("Saisie de la deuxième duree : ");
+        d3 = DureeHMS.saisirDuree("Saisie de la troisième duree : ");
 
-        System.out.println("Parmi ces 3 durées, "
-                + DureeHMS.combienDifferentes(d1, d2, d3) + " sont différentes.");
+        System.out.println("Parmi ces 3 durees, "
+                + DureeHMS.combienDifferentes(d1, d2, d3) + " sont differentes.");
 
     }
 
@@ -47,12 +49,12 @@ public class UtilisationDuree {
         int[] d2; // deuxième durée
         int[] d3; // troisième
 
-        d1 = DureeHMS.saisirDuree("Saisie de la première durée : ");
-        d2 = DureeHMS.saisirDuree("Saisie de la deuxième durée : ");
-        d3 = DureeHMS.saisirDuree("Saisie de la troisième durée : ");
+        d1 = DureeHMS.saisirDuree("Saisie de la première duree : ");
+        d2 = DureeHMS.saisirDuree("Saisie de la deuxième duree : ");
+        d3 = DureeHMS.saisirDuree("Saisie de la troisième duree : ");
 
-        System.out.println("ces 3 durées sont "
-                + (DureeHMS.ordre(d1, d2, d3) ? " ordonnées " : " dans le désordre"));
+        System.out.println("ces 3 durees sont "
+                + (DureeHMS.ordre(d1, d2, d3) ? " ordonnees " : " dans le desordre"));
 
     }
 

@@ -14,6 +14,7 @@ import lesdurees.DureeHMS;
 public class UtilisationDuree {
 
     /**
+     * Lancement des méthodes de test
      * @param args the command line arguments
      */
     public static void main(String[] args) {
